@@ -1,0 +1,7 @@
+generation:
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 1000
+  chosen_system_prompt: "You are a helpful assistant that follows formatting instructions precisely. Always follow the formatting requirements exactly as specified."
+  rejected_system_prompt: "You are a helpful assistant that generates content without following any formatting requirements."
+  retries: 3  # number of retries if generation fails
