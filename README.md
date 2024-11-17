@@ -8,17 +8,17 @@ Generate synthetic instruction-following datasets for Direct Preference Optimiza
 - Configurable task templates and variables via YAML
 - Built for easy integration with DPO training pipelines
 
-### Setup
+## Setup
 ```bash
 npm i
 ```
 
-### Usage
+## Usage
 ```
 npm run generate --count <number> --output <file>
 ```
 
-### Output Format
+## Output Format
 ```typescript
 {
   "prompt": string      // The instruction prompt
