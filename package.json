@@ -1,0 +1,32 @@
+{
+  "name": "structus",
+  "version": "1.0.0",
+  "description": "Instruction-Following DPO Dataset Generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "tsx scripts/generate.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbeerbower/Structus.git"
+  },
+  "author": "nbeerbower",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbeerbower/Structus/issues"
+  },
+  "homepage": "https://github.com/nbeerbower/Structus#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.9.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

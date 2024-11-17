@@ -8,3 +8,13 @@ Features:
 - Produces "chosen" (correctly formatted) and "rejected" (unformatted) responses
 - Configurable task templates and variables via YAML
 - Built for easy integration with DPO training pipelines
+
+### Setup
+```
+npm i
+```
+
+### Run
+```
+npm run generate --count <number> --output <file>
+```
