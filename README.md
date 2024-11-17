@@ -15,7 +15,7 @@ npm i
 
 ## Usage
 ```
-npm run generate --count <number> --output <file>
+npm run generate -- --count <number> --output <file>
 ```
 
 ## Output Format

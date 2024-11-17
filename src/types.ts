@@ -28,4 +28,11 @@ export interface TemplateData {
     prompt: string
     chosen: string
     rejected: string
+    metadata?: {
+        timestamp: string,
+        model: string,
+        temperature: number,
+        max_tokens: number,
+        formatRequirements: string[]
+    }
   }

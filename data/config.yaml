@@ -5,3 +5,14 @@ generation:
   chosen_system_prompt: "You are a helpful assistant that follows formatting instructions precisely. Always follow the formatting requirements exactly as specified."
   rejected_system_prompt: "You are a helpful assistant that generates content without following any formatting requirements."
   retries: 3  # number of retries if generation fails
+
+validation:
+  enforce_case: true
+  enforce_separators: true
+  enforce_bullets: true
+  enforce_highlighting: true
+  enforce_sections: true
+
+output:
+  include_metadata: true  # include generation params in output
+  save_failed: false     # save failed generations separately
