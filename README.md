@@ -1,7 +1,7 @@
-# STRUCTUS
-## Instruction-Following DPO Dataset Generator
+# Structus
+Instruction-Following DPO Dataset Generator
 
-Generate synthetic instruction-following datasets for Direct Preference Optimization (DPO) training. STRUCTUS creates pairs of formatted and unformatted responses to the same prompt, ideal for training language models to follow structural and formatting instructions.
+Generate synthetic instruction-following datasets for Direct Preference Optimization (DPO) training. Structus creates pairs of formatted and unformatted responses to the same prompt, ideal for training language models to follow structural and formatting instructions.
 
 Features:
 - Generates prompts combining random tasks with formatting requirements
