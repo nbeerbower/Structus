@@ -10,7 +10,7 @@ interface GenerateOptions {
 function parseArgs(): GenerateOptions {
  const args = process.argv.slice(2)
  const options: GenerateOptions = {
-   count: 10 // default
+   count: 32 // default
  }
 
  for (let i = 0; i < args.length; i++) {

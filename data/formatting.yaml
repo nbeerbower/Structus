@@ -1,0 +1,42 @@
+case:
+  - description: "Use only lowercase letters"
+    type: "case_lower"
+  - description: "Use all uppercase letters"
+    type: "case_upper"
+  - description: "Capitalize the first letter of each sentence"
+    type: "case_sentence"
+
+separators:
+  - description: "Separate sections with ***"
+    type: "separator"
+    value: "***"
+  - description: "Separate sections with ---"
+    type: "separator"
+    value: "---"
+  - description: "Separate sections with ###"
+    type: "separator"
+    value: "###"
+
+bullets:
+  - description: "Include exactly {n} bullet points"
+    type: "bullets"
+    range: [2, 5]
+  - description: "List {n} key points using bullet points"
+    type: "bullets"
+    range: [3, 6]
+
+highlighting:
+  - description: "Highlight {n} important phrases using *phrase*"
+    type: "highlight"
+    range: [1, 4]
+  - description: "Emphasize {n} key concepts using *asterisks*"
+    type: "highlight"
+    range: [2, 5]
+
+sections:
+  - description: "Divide into {n} sections marked as 'Section X'"
+    type: "sections"
+    range: [2, 4]
+  - description: "Split the response into {n} distinct parts"
+    type: "sections"
+    range: [2, 5]

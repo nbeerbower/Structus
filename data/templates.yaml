@@ -45,3 +45,17 @@ characters:
     - a talking houseplant
     - a retired superhero
     - a procrastinating wizard
+
+concepts:
+  tech:
+    - neural networks
+    - cloud computing
+    - blockchain
+    - machine learning
+    - quantum computing
+  science:
+    - photosynthesis
+    - quantum physics
+    - genetic engineering
+    - climate systems
+    - cellular biology

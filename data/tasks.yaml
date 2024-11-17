@@ -1,0 +1,19 @@
+writing_tasks:
+  creative:
+    - "Write a limerick about {topic}"
+    - "Write a haiku about {topic}"
+    - "Write a short story about {character}"
+    - "Write a poem about {concept}"
+    - "Write a song about {topic}"
+  professional:
+    - "Create a job posting for {role}"
+    - "Write a professional bio for {character}"
+    - "Write a press release about {topic}"
+    - "Create a business proposal about {concept}"
+    - "Write an email announcement about {topic}"
+  educational:
+    - "Explain how {concept} works"
+    - "Write a tutorial about {topic}"
+    - "Create a study guide for {concept}"
+    - "Write a FAQ about {topic}"
+    - "Create an educational outline for {concept}"
